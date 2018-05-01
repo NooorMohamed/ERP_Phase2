@@ -1,0 +1,499 @@
+input{
+    padding:5px; 
+    background:none; 
+    border:0 none;
+    outline: 0;
+    border-bottom: 1px solid #92856a;
+}
+
+
+input[type=submit] {
+   margin-left: 70px;
+}
+
+::-webkit-input-placeholder{
+    color: #92856a;
+    opacity: 1;
+}
+
+
+/* Ashrakat section1 page1*/
+.section2_page2_row1_col1{
+    color: #92856a;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.noborder .thumbnail{
+ border: none;
+ position: relative;
+}
+
+.otherImg{
+  height: 263.2px;
+  width: 352px;
+  max-height: 263.2px;
+  max-width: 352px;    
+}
+
+.thumbnail .thumbnail{
+    margin-top:-130px;
+}
+
+.thumbnail .thumbnail , .thumbnail .thumbclone , .thumbnail .galleryP1{
+    background-color: rgb(255,255,255,0.7);
+    border: none;
+}
+
+.thumbnail .thumbnail , .thumbnail .thumbclone{
+    padding-left:10px;
+    margin-left: 5px;
+    padding-right:10px;
+    padding-top:10px;
+    width:98%;
+}
+
+.thumbnail .galleryP1{
+  margin-top: -20px;
+}
+
+.thumbnail .thumbclone{
+    margin-top:-10px;
+}
+
+.hline{ 
+  width:100%;
+  height:1px;
+  background: #92856a;
+}
+
+.plus_icon{
+ color: black;
+}
+
+
+.plus_icon:hover , .icons_color:hover , .icons_color:visited{
+    text-decoration: none;
+    color: #92856a;
+}
+
+.icons_color:hover{
+    font-size: 15px;
+}
+
+.page_2_paragraph1{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#colorIcon , .icons_color , .icons_colorCross{
+    color: #92856a;
+    padding: 5px;
+}
+
+.icons_colorCross{
+   color: darkslategray;;
+}
+
+.feb17{
+  font-weight: bold;
+  font-size: 12px;
+  color: #92856a;    
+}
+
+.navbar a{
+  color: #92856a;       
+  text-decoration: none;
+  /*padding: 53px;*/
+  font-size: 22px;    
+}
+
+.navbar a:hover , .navbar a:visited{
+  color: #92856a; 
+}
+
+.navbar a:active{
+    text-decoration: none;
+}
+
+#loadmore{
+    color: #92856a;
+}
+/* the end of section 1 page 1 */
+
+/* section 2&4 page 1 " home page "cross" " */
+#section2 , #section4, #page6{
+    height: 1070px;
+    width: 1350px;
+    z-index: 1;
+    /*max-height: 200%;*/
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section2{
+     background-image: url("cross1a.png");
+}
+
+
+#section4{
+     background-image: url("cross2a.png");
+}
+
+.containerClone{
+    position: relative;
+    display: inline-block;
+}
+
+.containerClone .row .col-md-8 img{
+     top: 200;
+     left: 150;
+     position: absolute;
+}
+
+.containerClone .row .col-md-4 .thumbnail{
+     top: 450;
+     left:50;
+     position: absolute;
+}
+
+.containerClone .row .Diamond .thumbnail{
+    position: absolute;
+}
+
+/* end of section 2 page 1 "home page "cross" " */
+/* end of page1*/
+
+/***Nooor part page 4****/
+.page4Title{
+    color: #92856a;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.praghpage4{
+    font-size: 20px;
+}
+
+.page_4_paragraph2{
+    color: white;
+    font-size: 20px;
+}
+
+.mycontent-right {
+  font-family: Myriad Pro ;
+  font-weight: bold;
+  font-size: 14px;   
+  color: #92856a;
+  white-space: pre-wrap; 
+  border-right: 2px solid #92856a;
+}
+
+.title{
+    font-size: 20px;
+    color: black ; 
+}
+
+.icon-box{
+    color: #92856a;
+    font-size: 18px;
+}   
+
+.overlap{
+    background-color: white;
+    opacity: 0.8; 
+    margin-left:-55px; 
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #e1e3e4;  
+}
+
+.overlapRight{
+    background-color: white;
+    opacity: 0.8; 
+    margin-right:-55px; 
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e3e4;
+}
+
+.overlapup{
+    background-color: white;
+    opacity: 0.8; 
+    margin-top:-25px; 
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e3e4;  
+    border: 1px solid #e1e3e4 ;  
+}
+
+.overlapupphoto{ 
+  margin-top:-795px; 
+}
+
+.overlapupSemony{
+    background-color: white;
+    opacity: 0.8; 
+    margin-top:-100px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e3e4;  
+}
+
+.overlapupphoto{ 
+    margin-top:-795px; 
+}
+
+.photo{
+    width: 100% ;
+    height: 120%;
+    background-color: transparent; 
+}
+
+.colum1{
+    width: 410px; 
+    height: 300px;
+    margin-left: 15px;
+}
+
+
+.colum2{
+    width: 410px; 
+    height: 490px;
+    margin-left:550px;
+    margin-top: -300px;
+}
+
+.up{
+    margin-top: -50%;
+}
+/***end of noor part **/
+
+/* Salma Part "Awards & Sons */
+.pragh{
+    font-size: 12px;
+}
+
+.headers_color{
+	color: #92856a;
+ 	font-weight: bold;
+}
+
+.col-md-2{
+	margin-right: 0px;
+  	margin-left: 0px;
+	padding-right: 0px;
+  	padding-left: 0px;
+}
+
+.box{
+    min-height: 250px;
+	padding: 15px;
+}
+
+/* end of salma part */
+
+/* seif part header and footer */
+#swapHImg{
+    max-height: 100%;
+    max-width: 100%    
+}
+
+.headerText .headerImg{
+    display: block;
+}
+
+.header_paragraph{
+    position: absolute;
+    font-weight: bold;
+}
+
+.big{
+   position:absolute;
+   top: 10px;
+   left: 10px;
+   width: 100%;
+   height: 60%;
+   z-index: 1;
+}
+
+.small{
+	position:absolute;
+	top: 4%;
+	left: 16%;
+	z-index: 2;
+}
+
+.small2{
+	position:absolute;
+	top: 25px;
+	right: 100px;
+	z-index: 2;
+}
+
+.header_paragraph{
+    position: relative;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#foot_section{
+    padding-top: 50px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    background-color: #191d26;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 1em;
+    word-spacing: 30px;
+}
+
+.whiteAnchor{
+    color: white;
+}
+
+.aqAnchor {
+    color: #92856a;
+}
+
+.footer_symbols {
+    bottom: 60px;
+}
+
+.footer_style {
+    word-spacing: 100px;
+}
+
+.headerThumbnail .thumbnail{
+    border: none;
+}
+
+/* end of header & footer */
+
+/*Ashrakat page 5&3 */
+.noborder .thumbnailp3{
+    background-color: rgb(255,255,255,0.7);
+    margin-left: -50px;
+    margin-top: 15%;
+}
+
+.page3_paragragh{
+    font-size: 24px;
+    padding-left: 40px;
+}
+
+.otherViewImg{
+  width: 352px;
+  height: 234.66px; 
+  max-width: 352px;
+  max-height: 234.66px;     
+      
+}
+
+#section2_p3{
+     background-image: url("cross1a.png");
+     width: 1350px;
+    /*max-height: 200%;*/
+     max-width: 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+}
+
+.rowAdj{
+    margin-top: 20%;
+}
+
+#swapImg{
+   /*min-width: 740px;*/
+   max-height: 490px;     
+}
+
+.videoStream{
+    max-height: 224px;
+}
+
+
+/*
+.transparant .thumbnail{
+    border: none; 
+    position: relative;
+}
+.transparant2 .thumbnail {
+    background-color: rgb(255,255,255,0.7);
+    margin-left:-50px; 
+}
+
+.transparant3 .thumbnail img{
+    min-height:206.73px;
+    min-width: 254.73px;
+}
+
+.transparant2 .page5_sec2_2r {
+    background-color: rgb(255,255,255,0.7);
+    position: absolute;
+    bottom: -5px;
+    border-bottom: 0.25px solid ghostwhite;
+    border-left: 0.25px solid ghostwhite;
+    border-right: 0.25px solid ghostwhite;
+    width: 85%;
+    margin-left: 7px;
+    padding:5px;
+}
+
+.transparant2 .thumbnail p{
+    font-size: 20px;
+    font-style: normal;
+    padding: 15px;
+}
+*/
+
+/* End of page 5 speeches section2 */
+
+.transparant2 .thumbnail span{
+ color: #92856a;
+ font-weight: bold;     
+}
+
+.transparant2 .thumbnail span{
+    font-size: 20px;
+    font-weight: normal;    
+}
+
+/* End of page 5 speeches section2 */
+
+/*Saif daimond*/
+.squareHug {
+  width: 300px;
+  height: 300px;
+  margin-top: 30%;
+  margin-left: 60%;
+  transform: rotate(-45deg);
+  /*overflow: hidden;*/
+}
+
+.picHug {
+  max-width: 300px;
+  max-height: 300px;  
+  transform: rotate(-45deg);
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.textWithDiamond {
+    background:transparent;
+    margin-top:50%;
+    padding-right: 5px;
+}
+
+.Diamond{
+    margin-top: 30%;
+    margin-left: 25px;
+    position: absolute;
+}
