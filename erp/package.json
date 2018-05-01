@@ -1,0 +1,21 @@
+{
+  "name": "erp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "core-js": "^2.5.5",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2",
+    "react-fa-icon": "^0.1.4",
+    "react-scripts": "1.1.4",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
