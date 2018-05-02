@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import 'C:/Users/norha/Desktop/erp/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 
 class Header extends React.Component {

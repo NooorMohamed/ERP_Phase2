@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import './bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 class Footer extends React.Component {
       
