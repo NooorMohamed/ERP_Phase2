@@ -6,6 +6,7 @@ class Footer extends React.Component {
       
   render() {  
     return [
+    <div className="container">    
     <div className = "row">
         <div className="col-md-2">
         </div>
@@ -35,6 +36,7 @@ class Footer extends React.Component {
         
         
     </div>
+    </div>    
  ,<div className="footer">
     <a href="#" className="whiteAnchor"> Bio</a>
      <a href="#" className="aqAnchor"> Gallary</a>
