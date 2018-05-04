@@ -7,6 +7,8 @@ import Footer from '../footer.js';
 import Position from '../position.js';
 import LatestNews from './Latest News.js';
 import Interview from './interview.js';
+import LatestEvents from './Latest Events.js';
+import Cross from '../crossP5.js';
 
 class News extends Component {
     constructor() {
@@ -30,10 +32,16 @@ class News extends Component {
                     </div>
                 </div>
             </div>,
-            <div key="B">
+            <div key="C">
                 <Interview />
             </div>,
-            <div key="D">
+             <div key="D">
+                <LatestEvents />
+            </div>,
+              <div key="E" id = "section4">
+                <Cross />
+            </div>,
+            <div key="F">
                 <Footer />   
             </div>
         ];
