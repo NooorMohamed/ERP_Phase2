@@ -42,28 +42,6 @@ class SpeechCentre extends React.Component {
   ]
  }
 }
- /*   
- function sp(){
-    const speechItems = this.state.speeches.map((speech) =>(
-        <div className= "col-md-4" style={{paddingTop:'20px'}}>
-        <div className="noborder">    
-        <div className="thumbnail">
-         <img className= "otherViewImg" src = {require(speech.img_src)}/>    
-           <div className= "thumbnail thumbclone">  
-            <p className= "page_2_paragraph1"><span className="mycontent-right"style={{fontSize:'20px',fontWeight:'normal'}}><span style= {{fontWeight:'bold'}}>{speech.num} / 8</span>&nbsp;</span>
-                   &nbsp;
-            {speech.description}</p> 
-            <br/>   
-        </div>
-       </div>       
-      </div> 
-     </div> 
-    ));
-    return (
-     <div>{speechItems}</div>
-    );
- }
-*/
   render() {  
     return (
      <div className="container">

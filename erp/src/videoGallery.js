@@ -23,7 +23,7 @@ class VideoGallery extends React.Component {
   render() {  
     return (
      <div className="container">
-     <div className= "row" style={{marginTop:'20px'}}>
+     <div className= "row" style={{marginTop:'40px'}}>
         <div className= "col-md-4 col-xs-12" style ={{top:'100',paddingBottom:'80px'}}>
          <h1 className= "section2_page2_row1_col1">H.H.'S</h1>
          <h1 className= "section2_page2_row1_col1">Video center</h1>

@@ -6,23 +6,15 @@ import Biography from './Biography.js';
 import Multimedia from './Multimedia.js';
 import Speeches from './Speeches.js';
 import HomePage from './HomePage.js';
-import Speeches from './Speeches.js'
 import News from './News/News.js';
 
 class App extends Component {
   render() {
     return [
-    /*    
       <div>
         <HomePage/>
       </div>
-   /* <div>
-     <Speeches/>    
-    </div>*/
-    <div>
-        <News />
-    </div>
-    /*
+        /*
       ,<div>
        <Biography/>   
       </div>,
