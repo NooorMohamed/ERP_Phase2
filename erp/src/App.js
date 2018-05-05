@@ -8,6 +8,7 @@ import Speeches from './Speeches.js';
 import HomePage from './HomePage.js';
 import News from './News/News.js';
 import Details from './Details/Details.js';
+import Guestbook from './Guestbook/Guestbook.js'
 
 class App extends Component {
   render() {
@@ -29,8 +30,11 @@ class App extends Component {
        <Speeches/>    
       </div>
       */
-    <div>
+    /*<div>
         <Details/>
+    </div>*/
+    <div>
+        <Guestbook />
     </div>
     ];
   } 
