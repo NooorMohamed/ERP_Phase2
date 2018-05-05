@@ -5,10 +5,10 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Header from '../header.js';
 import Footer from '../footer.js';
 import Position from '../position.js';
-import LatestNews from './Latest News.js';
+import LatestNews from './latest News.js';
 import Interview from './interview.js';
-import LatestEvents from './Latest Events.js';
-import Cross from '../crossP5.js';
+import LatestEvents from './latest Events.js';
+import Cross from './crossP4.js';
 
 class News extends Component {
     constructor() {
