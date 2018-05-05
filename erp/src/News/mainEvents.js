@@ -9,14 +9,14 @@ class MainEvents extends React.Component {
      super();
      this.state = [{
          num : 1,
-         img_src:require("../photos/Biography/1a.jpg"),
+         img_src:require("../photos/Biography/1b.jpg"),
          date: "2015",
          title: "Mohammed Bin Zayed Mohammed Bin Zayed receives Qatari FM Mohammed Bin Zayed receives Qatari FM",
         description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
      },
      {
          num : 1,
-         img_src:require("../photos/Biography/1a.jpg"),
+         img_src:require("../photos/Biography/1b.jpg"),
          date: "2015",
          title: "Mohammed Bin Zayed Mohammed Bin Zayed receives Qatari FM Mohammed Bin Zayed receives Qatari FM",
         description: "His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace."
@@ -32,8 +32,8 @@ class MainEvents extends React.Component {
          <div className ="noborder">    
            <div className ="thumbnail">
             <img src = {event.img_src}/> 
-             <div className = "thumbnail">    
-              <h3 className = "headers_color" style={{padding:'15px'}}>{event.date}{event.title}</h3>
+             <div className = "thumbnail" style={{width:'85%'}}>    
+              <h3 className = "headers_color" style={{padding:'15px',fontSize:'22px'}}>{event.date}{event.title}</h3>
               <br/>
               <h6 className = "hline"></h6>
               <br/>
@@ -44,7 +44,6 @@ class MainEvents extends React.Component {
                 <a href="#" id = "colorIcon" className="fa fa-twitter Icons" ></a>
                 <a href="#" id ="colorIcon"><span className="fa fa-whatsapp"></span></a>
                 <a href="#" id ="colorIcon"><span className="fa fa-telegram"></span></a>
-                <a href="#" style ={{float:'right'}} className="material-icons plus_icon">add_circle_outline</a>
               </div>     
             </div>
            </div>

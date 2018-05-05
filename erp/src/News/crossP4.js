@@ -44,7 +44,7 @@ class CrossP5 extends React.Component {
                      </div>
                      <br/>
                 </div>
-               <div className="col-md-offset-1 col-md-3 col-xs-offset-4 col-xs-3 Diamond">
+               <div className="col-md-offset-1 col-md-3 col-xs-offset-3 col-xs-3 Diamond"style={{marginTop:'320px',marginLeft:'150px'}}>
                   <div className = "thumbnail picHug">
                    <img id="swapDImg" src={require("../photos/DiamondImg.png")}/>
                   </div>

@@ -4,10 +4,10 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import Header from '../header.js';
 import Footer from '../footer.js';
-import Position from '../position.js';
-import LatestNews from './latest News.js';
+import Event from '../events.js';
+import LatestNews from './Latest News.js';
 import Interview from './interview.js';
-import LatestEvents from './latest Events.js';
+import LatestEvents from './Latest Events.js';
 import Cross from './crossP4.js';
 
 class News extends Component {
@@ -25,9 +25,9 @@ class News extends Component {
             </div>,
             <div key="B">
                 <div className="container">
-                    <div className="row">
+                    <div className="row" style={{marginTop:'30px'}}>
                         {this.numbers.map((number) => (
-                            <Position /> 
+                            <Event /> 
                         ))}
                     </div>
                 </div>

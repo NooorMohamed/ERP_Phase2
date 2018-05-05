@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../index.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Position from '../position.js';
+import Event from '../events.js';
 
 class Cross extends Component {
  constructor() {
@@ -19,9 +19,9 @@ render() {
     return [
     <div id="section2" >
         <div className = "container">
-            <div className = "row" >
+            <div className = "row" style={{marginTop:'50px'}}>
                {this.numbers.map((number) => (
-                            <Position style={{marginTop:'100%'}}/> 
+                            <Event /> 
                 ))} 
             </div>
             <center>     

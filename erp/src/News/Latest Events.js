@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../index.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Position from '../position.js';
-import MainEvents from './mainEvents';
+import Event from '../events.js';
+import MainEvents from './mainEvents.js';
 
 class LatestEvents extends Component {
     constructor() {
@@ -21,19 +21,19 @@ class LatestEvents extends Component {
             <div id="section3"> 
                 <div className="container">    
                     <div className="row">
-                        <div className="col-md-4 col-md-offset-4">
-                            <center><h1 className="headers_color">H.H.'S</h1></center>
+                        <div className="col-md-12">
+                           <center><h1 className="headers_color">H.H.'S</h1></center>
                             <center><h2 className="headers_color">Latest Events</h2></center>
-                            <hr/>
+                            <center><hr style={{width:'25%'}}/></center>
                         </div>
                     </div>
                     <br/><br/>
                     <div>
                         <MainEvents/>
                     </div>
-                    <div className ="row">
+                    <div className ="row" style={{marginTop:'20px'}}>
                         {this.numbers.map((number) => (
-                            <Position /> 
+                            <Event /> 
                          ))} 
                     </div>
                  <center>     

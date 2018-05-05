@@ -30,7 +30,6 @@ class Position extends React.Component {
                <a href="#" id = "colorIcon" className="fa fa-twitter Icons" ></a>
                <a href="#" id ="colorIcon"><span className="fa fa-whatsapp"></span></a>
                <a href="#" id ="colorIcon"><span className="fa fa-telegram"></span></a>
-               <a href="#" style = {{float:'right'}} className="material-icons plus_icon">add_circle_outline</a>
             </div>
           </div>
        </div>

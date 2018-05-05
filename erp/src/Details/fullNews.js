@@ -7,18 +7,19 @@ class FullNews extends Component {
      super();
      this.fullNews = {
        num:1,
-       img_src:require("../photos/Biography/ssora.jpg"),      
+       img_src:require("../photos/Biography/1a.jpg"),      
        date:"15 february 2015",      
        title: "The future, with its needs and challenges call upon us to embrark prepetual quest for alternative source of energy",
-       description:"His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting, Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace." 
+       description:"His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting, Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace.His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting, Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace.His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting, Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace.His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting, Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace.His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting, Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace.His Highness Sheikh Mohammed Bin Zayd Al Nahyan, Crown Prince of Abo Dhabi and Deputy Supreme Commander of the UAE Armed Force's, Today receives visiting, Sheikh Mohammed Bin Abdulrahman Al-Thani, Qatar Minister of Foreign Affairs. at Al Shati Palace." 
     }
 }
 render() {  
     return [
     <div className ="container">
         <br/><br/>
+      <div className="row">    
         <div className="col-md-offset-1 col-md-10">
-            <div className="thumbnail">
+            <div className="thumbnail" style={{width:'83%'}}>
                 <img src={ this.fullNews.img_src}/>
                 <div className="overlapup">
                 <p className="section2_page2_row1_col1" style={{fontSize:'20px'}}>{this.fullNews.title}</p>
@@ -30,10 +31,12 @@ render() {
                     <a href="#" className="fa fa-whatsapp icon-box" ></a>
                     <a href="#" className="fa fa-telegram icon-box" ></a>
                     <span  style={{color:'#92856a',float:'right',fontWeight:'bold'}}>{this.fullNews.date}</span>
+                    <br/><br/>
                     </div>
                 </div>
             </div>
         </div>
+     </div>    
     </div>
     ];
   }

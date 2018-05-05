@@ -33,16 +33,15 @@ class LatestNews extends Component {
                  <br/><br/>
                 <div className="overlap">
                     <div className="box">
-                        <h2 className="section2_page2_row1_col1">{this.state.time}</h2>
-                        <h1 className="section2_page2_row1_col1">{this.state.title}</h1>
+                        <h2 className="section2_page2_row1_col1"style={{fontSize:'20px'}}>{this.state.time}</h2>
+                        <h1 className="section2_page2_row1_col1"style={{fontSize:'22px'}}>{this.state.title}</h1>
                         <hr/>
-                        <p style={{fontSize:'16px'}}>{this.state.description}
+                        <p style={{fontSize:'16px',fontWeight:'bold'}}>{this.state.description}
                         </p>
                         <a href="#" className="icons_color"><span  className="fa fa-facebook-official"></span></a>
                         <a href="#" className="icons_color"><span className="fa fa-twitter"></span></a>
                         <a href="#" className="icons_color"><span className="fa fa-whatsapp"></span></a>
                         <a href="#" className="icons_color"><span className="fa fa-telegram"></span></a>
-                        <a href="#" style = {{float:'right'}} className="material-icons plus_icon">add_circle_outline</a>
                     </div>
                 </div>
             </div>
